@@ -58,17 +58,6 @@ const Support = () => {
                 </AccordionItem>
 
                 <AccordionItem value="item-3">
-                  <AccordionTrigger>Does it work on Shorts?</AccordionTrigger>
-                  <AccordionContent>
-                    <p>
-                      Yes! JumprAI works on YouTube Shorts as long as captions exist for the Short. 
-                      Not all Shorts have captions, so if search doesn't work, it's likely because 
-                      captions aren't available for that particular Short.
-                    </p>
-                  </AccordionContent>
-                </AccordionItem>
-
-                <AccordionItem value="item-4">
                   <AccordionTrigger>Search is slow or timing out</AccordionTrigger>
                   <AccordionContent>
                     <div className="space-y-2">
@@ -83,7 +72,7 @@ const Support = () => {
                   </AccordionContent>
                 </AccordionItem>
 
-                <AccordionItem value="item-5">
+                <AccordionItem value="item-4">
                   <AccordionTrigger>Extension not installing</AccordionTrigger>
                   <AccordionContent>
                     <div className="space-y-2">
@@ -109,10 +98,10 @@ const Support = () => {
               <div className="bg-secondary/50 p-6 rounded-lg">
                 <p className="font-semibold mb-2">Contact us:</p>
                 <a 
-                  href="mailto:support@jumprai.app" 
+                  href="mailto:itsmasa.dev@gmail.com" 
                   className="text-primary hover:underline"
                 >
-                  support@jumprai.app
+                  itsmasa.dev@gmail.com
                 </a>
               </div>
             </section>
