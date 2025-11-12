@@ -25,9 +25,14 @@ const Home = () => {
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                  JumprAI — Jump to the moments that matter
-                </h1>
+                <div>
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                    Jumpr<span className="text-[#FF0000]">AI</span>
+                  </h1>
+                  <p className="text-2xl md:text-3xl mt-2 text-muted-foreground/80">
+                    Jump to the moments that matter
+                  </p>
+                </div>
                 <p className="text-xl text-muted-foreground">
                   Search inside YouTube videos and instantly jump to the exact part you need — powered by AI.
                 </p>
@@ -35,11 +40,6 @@ const Home = () => {
                   <Button size="lg" asChild>
                     <a href="#" target="_blank" rel="noopener noreferrer">
                       Install on Chrome
-                    </a>
-                  </Button>
-                  <Button size="lg" variant="outline" asChild>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      Watch Demo
                     </a>
                   </Button>
                 </div>
@@ -83,11 +83,11 @@ const Home = () => {
               <Card>
                 <CardHeader>
                   <Video className="h-10 w-10 text-primary mb-4" />
-                  <CardTitle>Works on long videos & Shorts</CardTitle>
+                  <CardTitle>Works on long videos</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription>
-                    Handles transcripts automatically for all video types, from quick Shorts to hours-long lectures.
+                    Handles transcripts automatically for videos of any length, from quick clips to hours-long lectures.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -245,9 +245,9 @@ const Home = () => {
               </AccordionItem>
 
               <AccordionItem value="item-4">
-                <AccordionTrigger>Does it work on YouTube Shorts?</AccordionTrigger>
+                <AccordionTrigger>What languages are supported?</AccordionTrigger>
                 <AccordionContent>
-                  Yes! JumprAI works on both regular YouTube videos and Shorts, as long as captions are available.
+                  JumprAI works with any video that has captions available, regardless of the language.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
