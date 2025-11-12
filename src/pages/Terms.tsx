@@ -91,8 +91,8 @@ const Terms = () => {
               <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
               <p className="text-muted-foreground">
                 If you have any questions about these Terms, please contact us at{" "}
-                <a href="mailto:support@jumprai.app" className="text-primary hover:underline">
-                  support@jumprai.app
+                <a href="mailto:itsmasa.dev@gmail.com" className="text-primary hover:underline">
+                  itsmasa.dev@gmail.com
                 </a>
               </p>
             </section>
