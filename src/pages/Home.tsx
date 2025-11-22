@@ -38,7 +38,11 @@ const Home = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button size="lg" asChild>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://chromewebstore.google.com/detail/jumprai-search-inside-you/gdbhmaleanophabknldoenkohbmlbdkg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Install on Chrome
                     </a>
                   </Button>
