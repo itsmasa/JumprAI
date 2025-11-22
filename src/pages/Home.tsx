@@ -264,11 +264,15 @@ const Home = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Ready to skip the scrubbing?
             </h2>
-            <Button size="lg" asChild>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Install on Chrome
-              </a>
-            </Button>
+              <Button size="lg" asChild>
+                <a
+                  href="https://chromewebstore.google.com/detail/jumprai-search-inside-you/gdbhmaleanophabknldoenkohbmlbdkg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Install on Chrome
+                </a>
+              </Button>
           </div>
         </section>
       </main>
